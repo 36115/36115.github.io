@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>สรวิชญ์ 510 No.11</title>
+</head>
+<h1>HTML5 New Input Types</h1>
+<body>
+    <p><a href="#video">Video</a></p>
+    <p><a href="#audio">Audio</a></p>
+    <p><a href="#forms">แบบฟอร์ม</a></p>
+    <p><a href="#table">ตารางสอน</a></p>
+    <p>จัดทำโดย นายสรวิชญ์ สิทธิบวรสกุล ม.5/10 เลขที่ 11 <a target="_blank" href="https://www.facebook.com/oItsMineZ">FB Profile</a></p>
+
+    <a id="forms"><strong>แบบฟอร์ม</strong></a>
+    <p><strong>ชื่อ นามสกุล</strong>:</p>
+    <input type="name" class="input input-html5-name">
+    <p><strong>กำลังศึกษาอยู่ระดับชั้นมัธยมศึกษาปีที่</strong>:</p>
+    <input type="grade" class="input input-html5-grade">
+    <p><strong>เพศ</strong>:</p>
+    <input type="gender" class="input input-html5-gender">
+    <p><strong>Username</strong>:</p>
+    <input type="username" class="input input-html5-username">
+    <p><strong>Password</strong>:</p>
+    <input type="password" class="input input-html5-password">
+    <p><input type="submit"></p>
+
+    <a id="audio"><strong>Audio</strong></a>
+    <p><audio controls autoplay loop >
+        <source src= "https://cdn.pixabay.com/audio/2021/08/09/audio_6b294070f5.mp3" type="audio/mp3">
+    </audio></p>
+
+    <a id="video"><strong>Video</strong></a>
+    <p><video controls autoplay loop muted>
+        <source src= "https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcQR98h2P7_cxHsxeCBt9-2sdkPFbgiuEej5AA" type="video/mp4">
+    </video></p>
+
+    <a id="table"><strong>ตารางเรียน ชั้น ม.5/10 ภาคเรียนที่ 1/2566 โรงเรียนบางปะกอกวิทยาคม</strong></a>
+    <p> </p>
+        <style>
+        table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+        td, th {
+        border: 1px solid #ddd;
+        text-align: center;
+        padding: 8px;
+    }
+
+        tr:nth-child(even) {
+        background-color: #ddd;
+    }
+        </style>
+    
+<table>
+    <tr>
+      <th>คาบที่</th>
+      <th>0</th>
+      <th>1</th>
+      <th>2</th>
+      <th>3</th>
+      <th>4</th>
+      <th>5</th>
+      <th>6</th>
+      <th>7</th>
+      <th>8</th>
+      <th>9</th>
+      <th>10</th>
+      <th>11</th>
+    </tr>
+    <tr>
+        <th>เวลา</th>
+        <th>07.30 - 08.20</th>
+        <th>08.20 - 09.10</th>
+        <th>09.10 - 10.00</th>
+        <th>10.00 - 10.50</th>
+        <th>10.50 - 11.40</th>
+        <th>11.40 - 12.30</th>
+        <th>12.30 - 13.20</th>
+        <th>13.20 - 14.10</th>
+        <th>14.10 - 15.00</th>
+        <th>15.00 - 15.50</th>
+        <th>15.50 - 16.40</th>
+        <th>16.40 - 17.30</th>
+      </tr>
+    <tr>
+      <td>จันทร์</td>
+      <td>โฮมรูม
+        <p>ครูที่ปรึกษา</p>
+      </td>
+      <td>ศ32101
+        <p>ครูอนุชัย</p>
+        <p>331</p>
+      </td>
+      <td>พ32101
+        <p>ครูศรายุทธ</p>
+        <p>ส.ฟุตซอล</p>
+      </td>
+      <td>ค32201
+        <p>ครูภัทรานี</p>
+        <p>236</p>
+      </td>
+      <td>อ32211
+        <p>ครู Suelen</p>
+        <p>712</p>
+      </td>
+      <td>ท32101
+        <p>ครูสุโรจนา</p>
+        <p>331</p>
+      </td>
+      <td>พัก
+        <p>รับประทาน</p>
+        <p>อาหาร</p>
+      </td>
+      <td>ว32203
+        <p>ครูสิทธิพงศ์</p>
+        <p>942</p>
+      </td>
+      <td>อ32101
+        <p>ครูลำพูน</p>
+        <p>435</p>
+      </td>
+      <td>ก32904
+        <p>จิตอาสา</p>
+        <p>ม.5/1-14</p>
+      </td>
+    </tr>
+    <tr>
+      <td>อังคาร</td>
+      <td>โฮมรูม
+        <p>ครูที่ปรึกษา</p>
+      </td>
+      <td>อ32101
+        <p>ครูลำพูน</p>
+        <p>435</p>
+      </td>
+      <td>ก32901
+        <p>ครูครูแนะแนว</p>
+        <p>114</p>
+      </td>
+      <td>ส32101
+        <p>ครูทิพย์สุดา</p>
+        <p>432</p>
+      </td>
+      <td>ว32223
+        <p>ครูกัญญ์นลิน</p>
+        <p>921</p>
+        <td>ว32223
+          <p>ครูกัญญ์นลิน</p>
+          <p>921</p>
+          <td>พัก
+            <p>รับประทาน</p>
+            <p>อาหาร</p>
+      <td>ว322243
+        <p>ครูณัฐญาดา</p>
+        <p>931</p>
+        <td>ว322243
+          <p>ครูณัฐญาดา</p>
+          <p>931</p>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>พุธ</td>
+      <td>โฮมรูม
+        <p>ครูที่ปรึกษา</p>
+      </td>
+      <td>ว32203
+        <p>ครูสิทธิพงศ์</p>
+        <p>942</p>
+      <td>ว32203
+        <p>ครูสิทธิพงศ์</p>
+        <p>942</p>
+      <td>ว322243
+        <p>ครูณัฐญาดา</p>
+        <p>931</p>
+      <td>ค32101
+        <p>ครูพิกุล</p>
+        <p>233</p>
+      <td>ค32201
+        <p>ครูภัทรานี</p>
+        <p>236</p>
+        <td>พัก
+          <p>รับประทาน</p>
+          <p>อาหาร</p>
+      <td>I30201
+        <p>ครูธีรเกียรติ</p>
+        <p>931</p>
+      <td>I30201
+        <p>ครูธีรเกียรติ</p>
+        <p>931</p>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>พฤหัสบดี</td>
+      <td>โฮมรูม
+        <p>ครูที่ปรึกษา</p>
+      </td>
+      <td>กิจกรรม
+        <p>โรงเรียน</p>
+        <p>วิธีพุทธ</p>
+      </td>
+      <td>ส32101
+        <p>ครูทิพย์สุดา</p>
+        <p>432</p>
+        <td>อ32211
+          <p>ครูเพ็ญศิริ</p>
+          <p>931</p>
+      <td>ว32223
+        <p>ครูกัญญ์นลิน</p>
+        <p>921</p>
+      <td>ส่งเสริม
+        <p>วิชาการ</p>
+        <p>126</p>
+      </td>
+      <td>พัก
+        <p>รับประทาน</p>
+        <p>อาหาร</p>
+      <td>เสรี
+        <p>ภาษา</p>
+        <p>อาเซียน</p>
+      </td>
+      <td>ค32201
+        <p>ครูภัทรานี</p>
+        <p>236</p>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>ศุกร์</td>
+      <td>ผู้ดี บ.ก.
+        <p>ที่ปรึกษา</p>
+        <p>ส30225</p>
+      </td>
+      <td>ว30271
+        <p>ครูธีระพงษ์</p>
+        <p>341</p>
+      <td>ว30271
+        <p>ครูธีระพงษ์</p>
+        <p>341</p>
+      <td>ว32203
+        <p>ครูสิทธิพงศ์</p>
+        <p>942</p>
+      <td>ค32201
+        <p>ครูภัทรานี</p>
+        <p>236</p>
+      <td>ค32101
+        <p>ครูพิกุล</p>
+        <p>233</p>
+        <td>พัก
+          <p>รับประทาน</p>
+          <p>อาหาร</p>
+      <td>ท32101
+        <p>ครูสุโรจนา</p>
+        <p>331</p>
+        <td>อ32211
+          <p>ครูเพ็ญศิริ</p>
+          <p>931</p>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </table>
+</body>
+</html>
