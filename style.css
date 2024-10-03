@@ -1,0 +1,27 @@
+* {
+    font-family: "Noto Sans Thai Looped", sans-serif;
+}
+
+p {
+    font-family: "Noto Sans Thai Looped", sans-serif !important;
+}
+
+/* .nav-pills .nav-link {
+    background-color: rgb(161 189 217 / 0%);
+} */
+
+.nav-main {
+    color: var(--bs-nav-link-color) !important;
+    background-color: transparent !important;
+}
+.card {
+    transition: 0.2s;
+}
+.card:hover {
+    scale: 1.04;
+    transition: 0.2s;
+}
+
+.offcanvas.offcanvas-start {
+    top: 80px;
+}
